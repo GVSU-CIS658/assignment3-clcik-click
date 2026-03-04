@@ -10,7 +10,7 @@
             <input
               type="radio"
               name="temperature"
-              :id="`r${temp}`"
+              :id="`t${temp}`"
               :value="temp"
               v-model="currentTemp"
             />
@@ -26,7 +26,7 @@
             <input
               type="radio"
               name="base"
-              :id="`${base.id}`"
+              :id="`b${base.id}`"
               :value="base"
               v-model="currentBase"
             />
@@ -42,7 +42,7 @@
             <input
               type="radio"
               name="creamer"
-              :id="`${creamer.id}`"
+              :id="`c${creamer.id}`"
               :value="creamer"
               v-model="currentCreamer"
             />
@@ -58,7 +58,7 @@
             <input
               type="radio"
               name="syrup"
-              :id="`${syrup.id}`"
+              :id="`s${syrup.id}`"
               :value="syrup"
               v-model="currentSyrup"
             />
